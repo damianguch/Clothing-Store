@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  background-image: url('../images/account.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+input {
+  outline: 0;
+  border: 0;
+  background: transparent;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+h1 {
+  color: black;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.white-box {
+  background-color: white;
+  max-width: 490px;
+  width: 80%;
+  height: 490px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-box {
+  display: flex;
+  max-width: 500px;
+  border-radius: 0.5rem;
+  background-color: rgb(128, 128, 128, 0.25);
+  padding: 0.75rm 1rem;
+  margin: 10px auto;
+  height: 50px;
+  width: 90%;
+}
+
+.input-box > svg {
+  margin-top: 15px;
+  margin-left: 7px;
+}
+
+/* .input-box > div > svg {
+  margin-top: 15px;
+} */
+
+#form-box > form > button {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.btn-peach-filled {
+  background-color: #e3bfaa;
+  border: 1px solid #e3bfaa;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+#form-box > p {
+  margin-top: 1rem;
+}
+
+#form-box > p > a {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+#eye-toggle {
+  display: flex;
+  margin-top: 15px;
+}
+
+/* svg#eye-slash-icon {
+  display: flex;
+} */
+
+svg#eye-icon {
+  display: none;
+}
